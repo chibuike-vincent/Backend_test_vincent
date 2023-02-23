@@ -15,7 +15,7 @@ Run `npm start` to to initiate the server
 Run `npm run test ` for the test cases
 
 For the sake of testing, a test database url is provided in this readme. To use it please create an environment variable file `.env` and create a variable called `TEST_DB` and asign it this way
-`TEST_DB = mongodb+srv://davinchi:ejikejude4me@cluster0.rlaut.mongodb.net/test_DB?retryWrites=true&w=majority`
+`TEST_DB = mongodb+srv://davinchi:ejikejude4me@cluster0.rlaut.mongodb.net/Test_DB?retryWrites=true&w=majority`
 OR
 you can use your local database
 `TEST_DB = mongodb://localhost:27017/test_db`
