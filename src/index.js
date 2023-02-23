@@ -31,7 +31,7 @@ dotenv.config()
                     console.log(`Database loaded - url - ${process.env.TEST_DB}`);
                 },
                 (err) => {
-                    log.error(err);
+                    console.log(err);
                     throw err;
                 },
             );
