@@ -21,6 +21,6 @@ you can use your local database
 `TEST_DB = mongodb://localhost:27017/test_db`
 
 You can also create an `.env file`with these
-`TEST_PORT = 3000`
+`PORT = 3000`
 `TEST_DB = mongodb://localhost:27017/test_db`
 
